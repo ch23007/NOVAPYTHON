@@ -1,0 +1,11 @@
+#User request/convert to numeric value
+
+print("Input a number: ")
+x = input()
+> Input a number: 
+>> 3   
+y = x + 1  # This will fail. You cannot add an int to a str
+> TypeError: must be str, not int
+y = int(x) + 1  
+print(y)
+> 4
