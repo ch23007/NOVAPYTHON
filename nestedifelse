@@ -1,10 +1,20 @@
 Nested if-else Syntax:
 
-if(condition):
-           #Statements to execute if condition is true
-           if(condition):
-                     #Statements to execute if condition is true
+#if(condition):
+#           #Statements to execute if condition is true
+#           if(condition):
+#                     #Statements to execute if condition is true
+#           else:
+#                    #Statements to execute if condition is false
+#else:
+#            #Statements to execute if condition is false
+
+
+num = -7
+if (num != 0):
+          if (num > 0):
+                      print(“Number is positive”)
            else:
-                    #Statements to execute if condition is false
+                      print(“Number is negative”)
 else:
-            #Statements to execute if condition is false
+           print(“Number is Zero”)
