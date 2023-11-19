@@ -1,0 +1,21 @@
+#Syntax elif ladder
+
+#if (condition):
+            #Set of statement to execute if condition is true
+#elif (condition):
+             #Set of statements to be executed when if condition is false and elif condition is true
+#elif (condition):
+             #Set of statements to be executed when both if and first elif condition is false and second elif condition is true
+#elif (condition):
+              #Set of statements to be executed when if, first elif and second elif conditions are false and third elif statement is true
+#else:
+       #Set of statement to be executed when all if and elif conditions are false
+#Example: 1
+
+my_marks = 90
+if (my_marks < 35):
+              print(“Sorry!, You failed the exam”)
+elif(my_marks > 60 and my_marks > 100): 
+              print(“Passed in First class”)
+else:
+              print(“Passed in First class with distinction”)
